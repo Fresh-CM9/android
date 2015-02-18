@@ -274,6 +274,6 @@
   <project path="system/vold" name="CyanogenMod/android_system_vold" />
   <project path="device/samsung/ancora" name="Fresh-CM9/android_device_samsung_ancora" remote="private" revision="ics-3.0"/>
   <project path="vendor/samsung/ancora" name="Fresh-CM9/android_vendor_samsung_ancora" remote="private" revision="ics"/>
-  <project path="kernel/msm7x30-common" name="Fresh-CM9/kernel-samsung-msm7x30" remote="private" revision="ics-3.0"/>
+  <project path="kernel/msm7x30-common" name="Fresh-CM9/samsung-kernel-msm7x30" remote="private" revision="ics-3.0"/>
   <project path="android" name="Fresh-CM9/android" remote="private" revision="ics"/>
 </manifest>
