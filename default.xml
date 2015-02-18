@@ -178,7 +178,7 @@
   <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" />
   <project path="hardware/invensense" name="platform/hardware/invensense" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" />
-  <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" />
+  <project path="hardware/libhardware_legacy" name="Fresh-CM9/android_hardware_libhardware_legacy" remote="private" revision="ics" />
   <project path="hardware/msm7k" name="CyanogenMod/android_hardware_msm7k" />
   <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" />
   <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" />
@@ -272,6 +272,8 @@
   <project path="system/netd" name="CyanogenMod/android_system_netd" />
   <project path="system/su" name="CyanogenMod/android_system_su" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" />
-
-  <project path="android" name="CyanogenMod/android" />
+  <project path="device/samsung/ancora" name="Fresh-CM9/android_device_samsung_ancora" remote="private" revision="ics-3.0"/>
+  <project path="vendor/samsung/ancora" name="Fresh-CM9/android_vendor_samsung_ancora" remote="private" revision="ics"/>
+  <project path="kernel/msm7x30-common" name="Fresh-CM9/kernel-samsung-msm7x30" remote="private" revision="ics-3.0"/>
+  <project path="android" name="Fresh-CM9/android" remote="private" revision="ics"/>
 </manifest>
